@@ -5,7 +5,7 @@
   "author": "Gevik Babakhani <gevik@blendjs.com>",
   "license": "MIT",
   "scripts": {
-    "publish-packages":"lerna publish from-git --yes",
+    "publish-packages":"lerna publish from-git",
     "release":"lerna version --conventional-commits",
     "build":"lerna run build",
     "test":"lerna run test"

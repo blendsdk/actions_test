@@ -31,7 +31,7 @@ jobs:
         yarn test
     - name: publish-packages
       run: |
-        yarn release -- --yes
+        yarn publish-packages -- --yes
     - name: sync-branches
       run: |
         git checkout develop
