@@ -1,6 +1,6 @@
 {
   "name": "@projx/app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "Gevik Babakhani <gevik@blendjs.com>",
   "homepage": "https://github.com/blendsdk/actions_test#readme",
@@ -28,6 +28,6 @@
     "url": "https://github.com/blendsdk/actions_test/issues"
   },
   "dependencies": {
-    "@projx/lib": "^1.0.1"
+    "@projx/lib": "^1.0.2"
   }
 }
