@@ -25,6 +25,7 @@ jobs:
       run: |
         echo ${{ secrets.NPM_REGISTRY }} > ~/.npmrc
         echo ${{ secrets.NPM_TOKEN }} >> ~/.npmrc
+        echo ${{ secrets.YARNRC }} >> ~/.yarnrc
         yarn install
         yarn build
         yarn test
