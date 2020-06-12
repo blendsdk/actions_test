@@ -1,17 +1,8 @@
 {
-  "npmClient": "yarn",
-  "useWorkspaces": true,
-  "version": "independent",
-  "publishConfig": {
-    "registry": "http://my-awesome-registry.com/",
-    "access": "restricted"
-  },
   "packages": [
     "packages/*"
   ],
-  "command": {
-    "publish": {
-      "conventionalCommits": true
-    }
-  }
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }

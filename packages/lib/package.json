@@ -1,11 +1,11 @@
 {
-  "name": "@projx/app",
+  "name": "@projx/lib",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Gevik Babakhani <gevik@blendjs.com>",
   "homepage": "https://github.com/blendsdk/actions_test#readme",
   "license": "ISC",
-  "main": "lib/app.js",
+  "main": "lib/lib.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,13 +21,9 @@
     "url": "git+https://github.com/blendsdk/actions_test.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "start": "node lib/app.js"
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/blendsdk/actions_test/issues"
-  },
-  "dependencies": {
-    "@projx/lib": "^1.0.0"
   }
 }

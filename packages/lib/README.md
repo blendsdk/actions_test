@@ -1,11 +1,11 @@
-# `@projx/app`
+# `@projx/lib`
 
 > TODO: description
 
 ## Usage
 
 ```
-const app = require('@projx/app');
+const lib = require('@projx/lib');
 
 // TODO: DEMONSTRATE API
 ```
