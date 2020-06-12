@@ -31,5 +31,6 @@ jobs:
         yarn release -- --yes
         git status
         git checkout develop
+        git pull origin develop
         git pull origin master
         git push -u origin develop
