@@ -21,16 +21,21 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: install packages
+    - name: prepare
       run: |
         echo "${{ secrets.NPM_REGISTRY }}" > ~/.npmrc
         echo "${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
         yarn install
+    - name: build-and-test
+      run: |
         yarn build
         yarn test
+    - name: publish-packages
+      run: |
         yarn release -- --yes
-        git status
+    - name: sync-branches
+      run: |
         git checkout develop
         git pull origin develop
-        git pull origin master
+        git pull origin master --allow-unrelated-histories
         git push -u origin develop
