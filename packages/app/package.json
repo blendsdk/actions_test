@@ -21,7 +21,7 @@
     "url": "git+https://github.com/blendsdk/actions_test.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
+    "test": "echo \"testing\"",
     "start": "node lib/app.js"
   },
   "bugs": {
