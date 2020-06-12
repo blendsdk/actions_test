@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "publish-packages":"lerna publish from-git",
-    "release":"lerna version --conventional-commits",
+    "tag-version":"lerna version --conventional-commits",
+    "release":"yarn build && yarn test && yarn tag-version",
     "build":"lerna run build",
     "test":"lerna run test"
   },
