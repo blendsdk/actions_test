@@ -1,3 +1,5 @@
 const {sayHello} = require("@proj/library");
 
-sayHello("World")
+console.log("This is the greet script")
+
+sayHello("Mars")
