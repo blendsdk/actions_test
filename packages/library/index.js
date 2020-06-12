@@ -10,8 +10,13 @@ function addNumbers (a, b) {
     return a + b;
 }
 
+function devideNumbers (a, b) {
+    return a + b;
+}
+
 module.exports = {
     sayHello,
     sayTime,
-    addNumbers
+    addNumbers,
+    devideNumbers
 };
