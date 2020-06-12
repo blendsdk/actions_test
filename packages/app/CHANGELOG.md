@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/blendsdk/actions_test/compare/@proj/app@1.2.0...@proj/app@1.3.0) (2020-06-12)
+
+
+### Bug Fixes
+
+* change ([74aa115](https://github.com/blendsdk/actions_test/commit/74aa115d32f9b586af21e0b5095d7371240dcad8))
+
+
+### Features
+
+* change ([411fcf3](https://github.com/blendsdk/actions_test/commit/411fcf3bcb21873a26158005ff9a207bd2cd7ea6))
+
+
+
+
+
 # [1.2.0](https://github.com/blendsdk/actions_test/compare/@proj/app@1.1.1...@proj/app@1.2.0) (2020-06-12)
 
 
