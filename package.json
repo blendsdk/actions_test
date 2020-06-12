@@ -1,24 +1,18 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "actions_test",
+  "private":true,
+  "repository": "git@github.com:blendsdk/actions_test.git",
+  "author": "Gevik Babakhani <gevik@blendjs.com>",
+  "license": "MIT",
   "scripts": {
-    "build": "lerna run build",
-    "test": "lerna run test",
-    "release": "yarn build && yarn test && lerna version --yes",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "release":"lerna publish --conventional-commits",
+    "build":"lerna run build",
+    "test":"lerna run test"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "husky": "^4.2.5",
     "lerna": "^3.22.1"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   }
 }
