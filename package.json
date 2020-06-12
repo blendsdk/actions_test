@@ -1,12 +1,14 @@
 {
   "name": "root",
   "private": true,
-  "packages": [
+  "scripts": {
+    "build":"lerna run build",
+    "test":"lerna run test",
+    "release":"yarn build && yarn test"
+  },
+  "workspaces": [
     "packages/*"
   ],
-  "npmClient": "yarn",
-  "useWorkspaces": true,
-  "version": "independent",
   "devDependencies": {
     "lerna": "^3.22.1"
   }
