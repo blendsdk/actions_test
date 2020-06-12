@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/blendsdk/actions_test/compare/@projx/lib@1.1.0...@projx/lib@1.2.0) (2020-06-12)
+
+
+### Features
+
+* do the thing ([d3c63dd](https://github.com/blendsdk/actions_test/commit/d3c63ddd84dce3a643b9a019eb1205fb53a2b389))
+
+
+
+
+
 # [1.1.0](https://github.com/blendsdk/actions_test/compare/@projx/lib@1.0.7...@projx/lib@1.1.0) (2020-06-12)
 
 
