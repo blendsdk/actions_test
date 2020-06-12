@@ -31,10 +31,4 @@ jobs:
         yarn test
     - name: publish-packages
       run: |
-        yarn publish-packages -- --yes
-    - name: sync-branches
-      run: |
-        git checkout develop
-        git pull origin develop
-        git pull origin master --allow-unrelated-histories --rebase
-        git push -u origin develop
+        yarn publish-packages --yes
