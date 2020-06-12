@@ -1,3 +1,3 @@
 const greeting = require('@projx/lib');
 
-console.log(greeting("Word!"));
+console.log(greeting("Mars!"));
