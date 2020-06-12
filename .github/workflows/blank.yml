@@ -23,6 +23,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: install packages
       run: |
+        echo ${{ secrets.NPM_REGISTRY }} > ~/.npmrc
+        echo ${{ secrets.NPM_TOKEN }} >> ~/.npmrc
         yarn install
         yarn build
         yarn test
