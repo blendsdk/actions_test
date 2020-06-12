@@ -4,7 +4,7 @@
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
-    "release": "yarn build && yarn test && lerna version",
+    "release": "yarn build && yarn test && lerna version --yes",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "workspaces": [
