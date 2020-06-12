@@ -3,7 +3,7 @@ function sayHello (name) {
 }
 
 function sayTime() {
-    console.log(`It is ${new Date()}`)
+    console.log(`It is ${new Date()} now`)
 }
 
 module.exports = {
