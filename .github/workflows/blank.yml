@@ -24,4 +24,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run docker hello
-      run: sudo docker run hello-world
+      run: docker run hello-world
