@@ -32,3 +32,19 @@ jobs:
     - name: publish-packages
       run: |
         yarn publish-packages --yes
+    - name: Send mailer
+      uses: devellany/send-mail@v1.0.2
+      with:
+          host: ${{secrets.MAIL_HOST}}
+          port: 578
+          account: ${{secrets.MAIL_ACCOUNT}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          sender: ${{secrets.MAIL_SENDER}}
+          from: ${{secrets.MAIL_SENDER}}
+          to: ${{secrets.MAIL_TO}}
+          subject: CI/CD STATUS
+          body: your messages.
+          # Optional content type (defaults to text/plain)
+          contentType: text/plain
+          # Optional attachment files (JSON type. require property 'path')
+          attachments: '[{"path":"README.md"}]'
